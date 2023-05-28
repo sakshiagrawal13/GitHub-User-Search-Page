@@ -1,0 +1,22 @@
+.results-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-height: 55vh;
+    overflow-y: scroll;
+    color: #fff;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+
+.results-list::-webkit-scrollbar{
+    display: none;
+}
+
+.results{
+    height: 100vh;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #565564;
+}
