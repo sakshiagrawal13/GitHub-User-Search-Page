@@ -1,0 +1,115 @@
+.container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .bg-img{
+    top: 0 !important;
+    position: absolute !important;
+    right: -1050px;
+    max-width: calc(230vw + 1670px);
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-image: url("./hero-bg.webp"); */
+    background-size: cover;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: transparent;
+    position: absolute !important;
+    right: 0;
+    left: 0;
+    z-index: 32;
+    color: #fff;
+  }
+
+  .logo{
+    padding-left: 6rem;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .search-bar-container{
+    padding-right: 5rem;
+    width: 30%;
+  }
+
+  .main{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .drone-img{
+    position: absolute;
+    width: 20%;
+    right: 0;
+    margin-right: 5rem;
+    animation-play-state: running;
+    animation: 10s ease infinite float-y paused;
+    /* animation: bounce 2s ease infinite; */
+    pointer-events: none;
+    top: 128px;
+  }
+  @keyframes bounce {
+    70% { transform:translateY(0%); }
+    80% { transform:translateY(-15%); }
+    90% { transform:translateY(0%); }
+    95% { transform:translateY(-7%); }
+    97% { transform:translateY(0%); }
+    99% { transform:translateY(-3%); }
+    100% { transform:translateY(0); }
+}
+.content{
+    display: flex;
+    margin-top: 110px;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+.helping-text{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* z-index: 2; */
+    /* font-size: 32px;
+    font-weight: 600; */
+    font-family: "Mona Sans","Mona Sans Header Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-feature-settings: unset;
+}
+h1{
+    font-size: 4rem;
+    font-weight: 600;
+    z-index: 2;
+}
+p{
+  z-index: 1;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #7d8590;
+}

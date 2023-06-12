@@ -32,7 +32,7 @@ export default function SearchBar({setResults, setDisplay}) {
 
   return (
     <div className="input-wrapper">
-       <input placeholder="Type to Search...." value={input} onChange={(e) => handleChange(e)} onKeyDown={handleChange}/>
+       <input placeholder="Search Github Users..." value={input} onChange={(e) => handleChange(e)} onKeyDown={handleChange}/>
        <FaSearch id='search-icons' onClick={handleSearchClick}/>
     </div>
   )
